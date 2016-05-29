@@ -1,0 +1,177 @@
+@font-face {
+  font-family: generica;
+  src: url('../fonts/Generica.otf');
+}
+@font-face {
+  font-family: blackout;
+  src: url('../fonts/blackout.ttf');
+}
+@font-face {
+  font-family: vanadine;
+  src: url('../fonts/vanadine.ttf');
+}
+@font-face {
+  font-family: gondola;
+  src: url('../fonts/Gondola.ttf');
+}
+
+body {
+  font-family: Gondola;
+  margin: auto;
+  color: #454545;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  height: 160px;
+  padding: 25px;
+  background-image: url('../images/past3.jpeg');
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 1px 3px #ccc;
+}
+
+h1 {
+  font-family: blackout;
+  font-size: 55px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-family: gondola;
+  font-size: 25px;
+  letter-spacing: 5px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding: 15px;
+}
+
+nav ul li {
+  font-family: vanadine;
+  letter-spacing: 1px;
+  padding-left: 35px;
+  padding-right: 35px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+
+}
+
+article {
+  left: 50%;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
+
+h2 {
+  font-family: blackout;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px auto;
+  font-size: 40px;
+
+}
+
+article p {
+  text-align: justify;
+  padding: 5px;
+  width: 500px;
+  margin: 20px auto;
+  font-size: 15px;
+}
+
+.section {
+  width: 100%;;
+  border-radius: 4px;
+  margin: auto;
+  background-color: #F2C2C7;
+  /*background-image: url('../images/pas2.jpeg');*/
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  box-shadow: 0px 1px 3px #ccc;
+}
+
+.section h2 {
+  font-family: blackout;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-shadow: -1px 1px 1px #ccc;
+  margin: 25px auto;
+
+  color: #fff;
+  font-size: 35px;
+  width: 400px;
+  line-height: 135%;
+  padding: 45px;
+}
+
+.socials {
+  display: inline-block;
+  margin: auto!important;
+  text-align: center;
+  left: 50%;
+  width: 500px;
+}
+
+.socials a {
+  padding: 10px;
+}
+
+footer {
+  left: 50%;
+  background-color: ;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  color:;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+
+#info {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#beaut {
+  color: #A469FF;
+}
+
+#interest {
+  color: #4EDBED;
+}
+
+#think {
+  color: #FFE100;
+}
+
+hr {
+  width: 300px;
+  margin: auto;
+  color: #454545;
+  margin-top: 20px;
+}
